@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>无聊又无趣的老年大西瓜</title>
+    <style type="text/css">
+        a{
+            color:black;
+            text-decoration: none;
+        }
+
+       /* 未访问的链接并且和a{}相同并且同时存在时会覆盖a*/
+        a:link{
+            color: red;
+        }
+      /*  鼠标移动到链接上*//*ctrl shift /注释*/
+        a:hover{
+            text-decoration: underline;
+            color: darkmagenta;
+        }
+        a:active{
+            color: coral;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: red ;
+        }
+    </style>
+    <script>
+        function myFunction()
+        {
+            document.getElementById("demo").innerHTML="My First JavaScript Function";
+        }
+    </script>
+
+</head>
+<body>
+    <ol>
+        <li>  】【了里面的肌肉，还是血从他体内渗出来，覆盖在他脸上。刹那间我觉得这张脸非常熟悉，仔细一看竟然是大奎，心中大骇：好好的一个人，竟然成了这个样子。
+
+            他左边脑袋上被子弹削去一块皮，都看到骨头了，可是没有伤到里面的大脑，我看他受伤虽然重却不至于死，心里不由大喜，忙说：“快上去，说不定还有救！”
+
+            可是他却纹丝不动，我看他的眼神，竟然十分的怨毒，好像不甘心我们舍他而去，我大惊失色，但我的手已经被他的手握住，他身上那种恐怖的血红色，已经迅速蔓延到我的手上来了，我就觉得手上一阵火辣的奇痒，心里大叫：“完了！”
+
+            大奎嘴巴里发出含糊不清的声音，突然把我向下面拉，我想到大奎的那种全身皮肤熔化的惨状，不由一阵抓狂，狠命把他的手甩掉，可是他又一把抓住我的脚，张大嘴巴好像一定要我给他陪葬。
+        </li>
+        <a href="http://www.lread.net/read/70/48177.html"target_>盗墓笔记</a>
+    </ol>
+
+
+    <h1>My Web Page</h1>
+
+    <p id="demo">Paragraph</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <h1>My First Web Page</h1>
+
+    <p id="demo2">MyFirstParagraph</p>
+
+
+    <script>
+
+    </script>
+
+    <script>
+        document.write(Date())
+
+        var s="大好人就是我"
+        var array = ['1','2'];
+
+        function spacify(var1 )
+        {
+        var1= var1+"hhhhh";
+            return var1;
+        }
+        document.getElementById("demo2").innerHTML=spacify(s);
+        var User = {
+            count: 1,
+
+            getCount: function() {
+                return this.count;
+            }
+        };
+
+        console.log(User.getCount());
+        console.log("好吧就这样");
+        var func;
+        func = User.getCount;
+        console.log(func());
+        var oldLog=console.log;
+
+        function log(){
+            console.log.apply(console, arguments);
+        };
+        log(User.getCount());
+    </script>
+
+
+</body>
+</html>
