@@ -19,13 +19,11 @@ filter过滤；
 3.闭包
 
 >就是一个函数拥有自己的作用域
+[一些资料](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
 
-[一些资料](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
-)
 4.回调函数
+[call](http://www.cnblogs.com/a546558309/p/4201241.html)
 
-[call](http://www.cnblogs.com/a546558309/p/4201241.html
-)
 5.语义化
 
 课程里老师曾提到过这个，感觉是说能够让机器理解代码然后工作就像人类理解语言一样，这个在html里也有说到，但是不知道有什么作用。
@@ -33,5 +31,7 @@ filter过滤；
 6.fork+pr
 
 7.[查文档神器](http://devdocs.io/)
+
 8.chrome的控制台调试，（这里我很郁闷，安上了chrome之后edge里的书签都。不。见。了QAQ）
+
 9.谢谢老师非常翔实的指导
