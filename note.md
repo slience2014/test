@@ -1,6 +1,7 @@
 #上课笔记（1）
 
-1.var res=array.concat(item)，用于拼接数组。
+1.<pre><code>var res=array.concat(item)
+  </code></pre>，用于拼接数组。
 
 涉及深复制与前复制，浅复制类似于c里说的只是复制了一个指针（如concat，修改item或者array会改变res的内容，同理修改res亦然）；而深复制就是申请一个新内存空间来存放同样的东西，在js里，除了原始值类型可以直接用“=”来复制，其他的都要遍历到原始值再复制。
 
